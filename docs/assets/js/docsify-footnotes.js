@@ -1,108 +1,77 @@
 (function () {
 
-  function parseFootnotes(html) {
+  function footnotes(html) {
 
-    const footnotes = {};
+    const notes = {};
 
     /*
-     * Extract footnote definitions
-     *
-     * Example:
-     *
-     * <p>[^1]: Reference text</p>
-     *
-     * Supports multi-line paragraphs
+     * Find footnote definitions inside paragraphs
      */
-
     html = html.replace(
-      /<p>\[\^(\d+)\]:\s*([\s\S]*?)<\/p>/g,
-      function(match, id, content) {
+      /<p>\[\^(\d+)\]:\s*(.*?)<\/p>/gs,
+      function(match, id, text) {
 
-        footnotes[id] = content.trim();
+        notes[id] = text;
 
         return "";
+
       }
     );
 
 
     /*
      * Replace references
-     *
-     * [^1] -> superscript link
      */
-
-    const used = {};
-
     html = html.replace(
       /\[\^(\d+)\]/g,
       function(match, id) {
 
-        used[id] = true;
-
-        let count = used[id];
-
         return `
-<sup class="footnote-ref">
-<a href="#footnote-${id}" 
-   id="footnote-ref-${id}">
+<sup>
+<a href="#fn-${id}" id="fnref-${id}">
 ${id}
 </a>
-</sup>`;
+</sup>
+`;
+
       }
     );
 
 
-    if (Object.keys(footnotes).length === 0) {
+    if(Object.keys(notes).length === 0){
       return html;
     }
 
 
-    /*
-     * Generate bibliography
-     */
-
-    let output = `
+    let ref = `
 <hr>
-
 <section class="footnotes">
-
 <h4>References</h4>
-
 <ol>
 `;
 
 
-    Object.keys(footnotes)
-      .sort(function(a,b){
-        return Number(a)-Number(b);
-      })
+    Object.keys(notes)
+      .sort((a,b)=>a-b)
       .forEach(function(id){
 
-        output += `
-<li id="footnote-${id}">
-
-${footnotes[id]}
-
-<a href="#footnote-ref-${id}"
-   class="footnote-backref">
-↩
-</a>
-
+        ref += `
+<li id="fn-${id}">
+${notes[id]}
+<a href="#fnref-${id}">↩</a>
 </li>
 `;
 
       });
 
 
-    output += `
-
+    ref += `
 </ol>
-
 </section>
 `;
 
 
-    return html + output;
+    return html + ref;
 
   }
 
@@ -112,18 +81,18 @@ ${footnotes[id]}
 
 
   window.$docsify.plugins =
-    (window.$docsify.plugins || [])
-    .concat(function(hook, vm){
+  (window.$docsify.plugins || [])
+  .concat(function(hook){
 
-      hook.afterEach(function(html, next){
+      hook.afterEach(function(html,next){
 
-        next(
-          parseFootnotes(html)
-        );
+          next(
+            footnotes(html)
+          );
 
       });
 
-    });
+  });
 
 
 })();
