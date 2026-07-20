@@ -773,3 +773,178 @@ Yaneva, A. (2001). ‘L’affluence des objets: Pragmatique compare´e de l’ar
 Yaneva, A. (2003). ‘When a Bus Meet a Museum: To Follow Artists, Curators and Workers in Art Installation’, Museum and Society, 1/3: 116–131.
 
 Zourabichvili, F. (2003). Le vocabulaire de Deleuze. Paris: Ellipses.
+
+
+# 孤儿脚注清单 — Latour《Reassembling the Social》
+
+孤儿脚注指：在 PDF 文本提取过程中，正文中对应的**上标脚注标记彻底丢失**，导致转换脚本无法在正文里精确定位 `[^N]` 引用位置的脚注。这些脚注的内容完整保留在文件末尾的定义 `[^N]: ...` 中，但其内联引用 `[^N]` 只能就近放在下一段的末尾（近似放置）。
+
+- **全书脚注总数**：361（连续编号 1–362，编号 148–149 为真实缺口）
+- **孤儿脚注数**：23（占 6.4%）
+- **脚注内容**：无一遗漏，全部已写入对应章节文件末尾的 `[^N]:` 定义
+- **脚注编号**：全书连续编号，跨章不重置
+
+---
+
+## 完整清单（按脚注编号排序）
+
+| 脚注号 | 所在章节 | 源页码 | 脚注内容 |
+|---:|---|---:|---|
+| 7 | Introduction | 12–29 | For the distinction between critical sociology and sociology of critique, see Luc Boltanski and Laurent The´venot (forthcoming) On Justification; Luc Boltanski and Laurent The´venot (1999), ‘The Socio… |
+| 52 | Second Source: Action Overtaken | 54–73 | Accountability is a crucial aspect of ethnomethodology as well; it will become a textual account in Chapter 5. |
+| 53 | Second Source: Action Overtaken | 54–73 | The notion of trial of strength is developed at length in Bruno Latour (1988), Irreductions. Trial—e´preuves—has also become the key notion of the moral sociology developed by Luc Boltanski. See Bolta… |
+| 65 | Second Source: Action Overtaken | 54–73 | See Victoria Nelson (2002), The Secret Life of Puppets. |
+| 73 | Third Source: Objects Have Agency | 74–97 | For an early presentation of this argument, see Strum and Latour, ‘The Meanings of Social’. |
+| 86 | Third Source: Objects Have Agency | 74–97 | This is what was at stake in the dispute about the exact role of non-humans and known as the ‘Bath controversy’. See Harry Collins and Steven Yearley (1992), ‘Epistemological Chicken’ and Michel Callo… |
+| 88 | Third Source: Objects Have Agency | 74–97 | Psychologists have shown that even a two-month-old baby can clearly differentiate intentional and non-intentional movements. Humans and objects are clearly distinct. See Olivier Houde´ (1997), Rationa… |
+| 89 | Third Source: Objects Have Agency | 74–97 | This is the reason why I have abandoned most of the geometrical metaphor about the ‘principle of symmetry’ when I realized that readers concluded from it that nature and society had to be ‘maintained … |
+| 107 | Fourth Source: Matters of Concern | 98–131 | A striking proof of the impact of science studies on social theory is provided by the parallel effect it had on Haraway. See Donna J. Haraway (1991), Simians, Cyborgs, and Women: The Reinvention of Na… |
+| 134 | Fourth Source: Matters of Concern | 98–131 | I thank Gerard de Vries for his help in those treacherous straits. If I drown, it’s not his fault. |
+| 151 | Fourth Source: Matters of Concern | 98–131 | The unlikely case of sugar beets has helped Franc¸ois Me´lard to provide one of the best applications of what happens to society when things are brought in. See Franc¸ois Me´lard (2001) ‘L’autorite´ d… |
+| 188 | Fifth Source: Writing Accounts | 132–151 | This was shown in the early Leximappe tools in Michel Callon, John Law and Arie Rip (1986), Mapping the Dynamics of Science and Technology. However, there are now many more graphic devices that have b… |
+| 197 | Fifth Source: Writing Accounts | 132–151 | Kindly translated by Simon Schaffer. |
+| 206 | Part II Introduction | 168–175 | See John Dewey (1927 1954), The Public and Its Problems and his critique of Hegelianism in politics. |
+| 266 | Second Move: Redistributing the Local | 202–229 | The implausibility of the individual would of course be much easier to detect for instance in India. See Louis Dumont (1982), Homo Hierarchicus: The Caste System and Its Implications. This entrenchmen… |
+| 268 | Second Move: Redistributing the Local | 202–229 | See Michel Serres (1995), Conversations on Science, Culture and Time with Bruno Latour. |
+| 269 | Second Move: Redistributing the Local | 202–229 | This is why, especially for methodological reason, methodological individualism seems a very unfortunate choice of departure in spite of the attempt made in Raymond Boudon (1981), The logic of social … |
+| 285 | Second Move: Redistributing the Local | 202–229 | Foucault’s later work is a good example of the richness of this line of thought, although the construction of human interior psyches is somewhat obfuscated by the earlier theme of the ‘death of the su… |
+| 286 | Second Move: Redistributing the Local | 202–229 | Durkheim showed how all logical and personal categories inside are in some ways the translation and interiorization of the outside. But this outside was mistaken for a society thus opening, in spite o… |
+| 305 | Third Move: Connecting Sites | 230–257 | I introduced the expression of inscription devices in Bruno Latour and Steve Woolgar (1986), Laboratory Life: The Construction of Scientific Facts. |
+| 335 | Third Move: Connecting Sites | 230–257 | It’s possible that such a move is beyond the reach of social science and that it leads to philosophy. But I have learned from Mol that ‘empirical philosophy’ might be another way to do social science. |
+| 336 | Third Move: Connecting Sites | 230–257 | If I was accused of positivism in rejecting every hidden force (see the second source of uncertainty, p. 43), I hope it’s now clear that it was only a momentary impression. |
+| 357 | Conclusion | 258–273 | I have tried to capture this difficulty in Latour, We Have Never Been Modern. Modernism has never been able to catch up with its own time. |
+
+---
+
+## 按章节分布
+
+| 章节 | 孤儿数 | 脚注编号 |
+|---|---:|---|
+| Second Move: Redistributing the Local | 5 | 266, 268, 269, 285, 286 |
+| Third Source: Objects Have Agency | 4 | 73, 86, 88, 89 |
+| Second Source: Action Overtaken | 3 | 52, 53, 65 |
+| Fourth Source: Matters of Concern | 3 | 107, 134, 151 |
+| Third Move: Connecting Sites | 3 | 305, 335, 336 |
+| Fifth Source: Writing Accounts | 2 | 188, 197 |
+| Introduction | 1 | 7 |
+| Part II Introduction | 1 | 206 |
+| Conclusion | 1 | 357 |
+
+---
+
+## 各孤儿脚注完整内容
+
+以下是每个孤儿脚注的完整内容，方便人工核对与定位：
+
+### [^7] — Introduction（pp. 12–29）
+
+> For the distinction between critical sociology and sociology of critique, see Luc Boltanski and Laurent The´venot (forthcoming) On Justification; Luc Boltanski and Laurent The´venot (1999), ‘The Sociology of Critical Capacity’; and especially Luc Boltanski (1990), L’amour et la justice comme compe´tences. If I find it necessary to establish some continuity with the sociology of the social, I will have to be more confrontational with critical sociology and its ‘illusion of an illusion’.
+
+### [^52] — Second Source: Action Overtaken（pp. 54–73）
+
+> Accountability is a crucial aspect of ethnomethodology as well; it will become a textual account in Chapter 5.
+
+### [^53] — Second Source: Action Overtaken（pp. 54–73）
+
+> The notion of trial of strength is developed at length in Bruno Latour (1988), Irreductions. Trial—e´preuves—has also become the key notion of the moral sociology developed by Luc Boltanski. See Boltanski and The´venot, On Justification.
+
+### [^65] — Second Source: Action Overtaken（pp. 54–73）
+
+> See Victoria Nelson (2002), The Secret Life of Puppets.
+
+### [^73] — Third Source: Objects Have Agency（pp. 74–97）
+
+> For an early presentation of this argument, see Strum and Latour, ‘The Meanings of Social’.
+
+### [^86] — Third Source: Objects Have Agency（pp. 74–97）
+
+> This is what was at stake in the dispute about the exact role of non-humans and known as the ‘Bath controversy’. See Harry Collins and Steven Yearley (1992), ‘Epistemological Chicken’ and Michel Callon and Bruno Latour (1992), ‘Don’t throw the Baby out with the Bath School! A reply to Collins and Yearley’—a tiny landmark for our little field.
+
+### [^88] — Third Source: Objects Have Agency（pp. 74–97）
+
+> Psychologists have shown that even a two-month-old baby can clearly differentiate intentional and non-intentional movements. Humans and objects are clearly distinct. See Olivier Houde´ (1997), Rationalite´, de´veloppement et inhibition: Un nouveau cadre d’analyse and Dan Sperber, David Premack and Ann James Premack (1996), Causal Cognition: A Multidisciplinary Debate. But a difference is not a divide. Toddlers are much more reasonable than humanists: although they recognize the many differences between billiard balls and people, this does not preclude them to follow how their actions are woven into the same stories.
+
+### [^89] — Third Source: Objects Have Agency（pp. 74–97）
+
+> This is the reason why I have abandoned most of the geometrical metaphor about the ‘principle of symmetry’ when I realized that readers concluded from it that nature and society had to be ‘maintained together’ so as to study ‘symmetrically’ ‘objects’ and ‘subjects’, ‘non-humans’ and ‘humans’. But what I had in mind was not and, but neither: a joint dissolution of both collectors. The last thing I wanted was to give nature and society a new lease on life through ‘symmetry’.
+
+### [^107] — Fourth Source: Matters of Concern（pp. 98–131）
+
+> A striking proof of the impact of science studies on social theory is provided by the parallel effect it had on Haraway. See Donna J. Haraway (1991), Simians, Cyborgs, and Women: The Reinvention of Nature. Pickering’s critique of the earlier explanations provided by the Edinburgh school (Andy Pickering (1995), The Mangle of Practice. Time, Agency and Science) as well as Karin Knorr-Cetina’s definition of agencies in science (Karin Knorr-Cetina (1999), Epistemic Cultures: How the Sciences Make Knowledge). They all had to take a similar turn.
+
+### [^134] — Fourth Source: Matters of Concern（pp. 98–131）
+
+> I thank Gerard de Vries for his help in those treacherous straits. If I drown, it’s not his fault.
+
+### [^151] — Fourth Source: Matters of Concern（pp. 98–131）
+
+> The unlikely case of sugar beets has helped Franc¸ois Me´lard to provide one of the best applications of what happens to society when things are brought in. See Franc¸ois Me´lard (2001) ‘L’autorite´ des instruments dans la production du lien social: le cas de l’analyse polarime´trique dans l’industrie sucrie`re belge’.
+
+### [^188] — Fifth Source: Writing Accounts（pp. 132–151）
+
+> This was shown in the early Leximappe tools in Michel Callon, John Law and Arie Rip (1986), Mapping the Dynamics of Science and Technology. However, there are now many more graphic devices that have been developed. See Alberto Cambrosio, Peter Keating and Andrei Mogoutov (2004), ‘Mapping Collaborative Work and Innovation in Biomedicine’. Viewed as representation it is naive, but viewed as theory it’s a formidable help to abstraction. See their early use in Genevie`ve Teil (1991), ‘Candide2, un outil de sociologie assiste´e par ordinateur pour l’analyse quantitative de gros corpus de textes’.
+
+### [^197] — Fifth Source: Writing Accounts（pp. 132–151）
+
+> Kindly translated by Simon Schaffer.
+
+### [^206] — Part II Introduction（pp. 168–175）
+
+> See John Dewey (1927 1954), The Public and Its Problems and his critique of Hegelianism in politics.
+
+### [^266] — Second Move: Redistributing the Local（pp. 202–229）
+
+> The implausibility of the individual would of course be much easier to detect for instance in India. See Louis Dumont (1982), Homo Hierarchicus: The Caste System and Its Implications. This entrenchment of the individual is most extreme in the rational choice mythology since it also includes a stabilized psychology and a stabilized cognition.
+
+### [^268] — Second Move: Redistributing the Local（pp. 202–229）
+
+> See Michel Serres (1995), Conversations on Science, Culture and Time with Bruno Latour.
+
+### [^269] — Second Move: Redistributing the Local（pp. 202–229）
+
+> This is why, especially for methodological reason, methodological individualism seems a very unfortunate choice of departure in spite of the attempt made in Raymond Boudon (1981), The logic of social action: an introduction to sociological analysis.
+
+### [^285] — Second Move: Redistributing the Local（pp. 202–229）
+
+> Foucault’s later work is a good example of the richness of this line of thought, although the construction of human interior psyches is somewhat obfuscated by the earlier theme of the ‘death of the subject’. In spite of his own affirmation, the two are parallel, not contradictory.
+
+### [^286] — Second Move: Redistributing the Local（pp. 202–229）
+
+> Durkheim showed how all logical and personal categories inside are in some ways the translation and interiorization of the outside. But this outside was mistaken for a society thus opening, in spite of Tarde’s warnings, the empty debate between psychoand socio-logy. Compare the sociology of logics in Gabriel Tarde (1893), La logique sociale with Emile Durkheim (1915), The Elementary Forms of the Religious Life.
+
+### [^305] — Third Move: Connecting Sites（pp. 230–257）
+
+> I introduced the expression of inscription devices in Bruno Latour and Steve Woolgar (1986), Laboratory Life: The Construction of Scientific Facts.
+
+### [^335] — Third Move: Connecting Sites（pp. 230–257）
+
+> It’s possible that such a move is beyond the reach of social science and that it leads to philosophy. But I have learned from Mol that ‘empirical philosophy’ might be another way to do social science.
+
+### [^336] — Third Move: Connecting Sites（pp. 230–257）
+
+> If I was accused of positivism in rejecting every hidden force (see the second source of uncertainty, p. 43), I hope it’s now clear that it was only a momentary impression.
+
+### [^357] — Conclusion（pp. 258–273）
+
+> I have tried to capture this difficulty in Latour, We Have Never Been Modern. Modernism has never been able to catch up with its own time.
+
+---
+
+## 如何在文件中识别孤儿脚注
+
+孤儿脚注的内联引用有如下特征：
+
+1. **位置**：`[^N]` 不在句子中间（不紧跟在某个词/标点之后），而是粘在**某段末尾**
+2. **成串出现**：相邻的多个孤儿常连成一串，例如 `…段落末尾.[^268][^269]`
+3. **无标点前导**：真正的脚注标记通常紧跟标点（如 `together.'[^1]`），孤儿则可能是 `text[^7]` 形式，无标点过渡
+
+## 修复建议
+
+如果需要把某些孤儿脚注的引用**精确定位**到正文中，可以：
+
+1. 对照 PDF 原书的对应页码，在 markdown 文件里找到该脚注本应出现的句子
+2. 把 `[^N]` 引用从段尾移动到目标词的后面
+3. 脚注定义 `[^N]: ...` 无需改动
+
+例如，注 7 在原书应挂在 "sociology of critique" 这个词组之后，可以在 Introduction 文件中搜索该词组，把 `[^7]` 移过去。
+
